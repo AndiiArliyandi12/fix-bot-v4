@@ -47,9 +47,9 @@ handler.help = ['add', '+'].map(v => v + ' @user')
 handler.tags = ['group']
 handler.command = /^(add|\+)$/i
 
-handler.admin = true
 handler.group = true
 handler.botAdmin = true
-handler.owner = false
+handler.owner = true
+handler.rowner = true
 
 export default handler
